@@ -15,8 +15,8 @@
 <body class="bg-[#f2f2f2]">
 
 
- <!-- navbar -->
- <div class="bg-color relative isolate z-30 " x-data="{openNav:0}">
+  <!-- navbar -->
+  <div class="bg-color relative isolate z-30 " x-data="{openNav:0}">
     <div class=" py-3 max-w-[1536px] mx-auto">
       <div class=" flex mx-auto px-6 gap-5 lg:px-4">
         <button type="button"
@@ -403,69 +403,119 @@
   <!-- body section starts -->
   <div class="flex px-0 lg:px-4 mt-2 gap-3 flex-col lg:flex-row max-w-[1536px] mx-auto">
     <div class="w-full">
-        <!-- Fertility Treatments section start -->
-        <div id="fertility_treatments" class="flex flex-col items-centr">
-            <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Fertility Treatments</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center mx-auto px-2 gap-8 ">
-              <!-- Card 1 -->
-              <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
-                <img src="./assets/ivf.png" class="w-full h-[190px]" alt="IVF">
-                <h2 class="text-xl font-semibold mt-2 py-2 pl-2">IVF</h2>
-              </div>
-              <!-- Card 2 -->
-              <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
-                <img src="./assets/surrogacy.jpg" class="w-full h-[190px]" alt="IVF">
-                <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Surrogacy</h2>
-              </div>
-              <!-- Card 3 -->
-              <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
-                <img src="./assets/IUI.jpg" class="w-full h-[190px]" alt="IVF">
-                <h2 class="text-xl font-semibold mt-2 py-2 pl-2">IUI</h2>
-              </div>
-              <!-- Card 4 -->
-              <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
-                <img src="https://img.freepik.com/free-photo/pregnancy-test-still-life-arrangement_23-2149195205.jpg?w=1060&t=st=1695025557~exp=1695026157~hmac=9ef7f7f9343d12c3d025501b196a74f9731d524a2225b401ecdceb673563f2df" class="w-full h-[190px]" alt="IVF">
-                <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Donor Sperm</h2>
-              </div>
-              <!-- Card 5 -->
-              <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
-                <img src="./assets/egg.jpg" class="w-full h-[190px]" alt="IVF">
-                <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Donor Egg</h2>
-              </div>
-              <!-- Card 6 -->
-              <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
-                <img src="./assets/ivf.png" class="w-full h-[190px]" alt="IVF">
-                <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Donor Sperm</h2>
-              </div>
+      <!-- Fertility Treatments section start -->
+      <div id="fertility_treatments" class="flex flex-col items-centr">
+        <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Fertility Treatments</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center mx-auto px-2 gap-8 ">
+          <!-- Card 1 -->
+          <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
+            <img src="./assets/ivf.png" class="w-full h-[190px]" alt="IVF">
+            <h2 class="text-xl font-semibold mt-2 py-2 pl-2">IVF</h2>
+          </div>
+          <!-- Card 2 -->
+          <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
+            <img src="./assets/surrogacy.jpg" class="w-full h-[190px]" alt="IVF">
+            <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Surrogacy</h2>
+          </div>
+          <!-- Card 3 -->
+          <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
+            <img src="./assets/IUI.jpg" class="w-full h-[190px]" alt="IVF">
+            <h2 class="text-xl font-semibold mt-2 py-2 pl-2">IUI</h2>
+          </div>
+          <!-- Card 4 -->
+          <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
+            <img
+              src="https://img.freepik.com/free-photo/pregnancy-test-still-life-arrangement_23-2149195205.jpg?w=1060&t=st=1695025557~exp=1695026157~hmac=9ef7f7f9343d12c3d025501b196a74f9731d524a2225b401ecdceb673563f2df"
+              class="w-full h-[190px]" alt="IVF">
+            <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Donor Sperm</h2>
+          </div>
+          <!-- Card 5 -->
+          <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
+            <img src="./assets/egg.jpg" class="w-full h-[190px]" alt="IVF">
+            <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Donor Egg</h2>
+          </div>
+          <!-- Card 6 -->
+          <div class="max-w-[450px] bg-white rounded-t-lg overflow-hidden">
+            <img src="./assets/ivf.png" class="w-full h-[190px]" alt="IVF">
+            <h2 class="text-xl font-semibold mt-2 py-2 pl-2">Donor Sperm</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Fertility Treatments section end -->
+
+      <!-- Book Appointment Section start -->
+      <div id="doctor_section">
+        <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Book Appointment</h2>
+        <div id="appiontment_card" class="bg-white flex">
+          <div class="w-3/4 flex gap-8">
+           <div>
+             <!-- <img src="https://img.freepik.com/free-photo/doctor-nurses-special-equipment_23-2148980721.jpg?size=626&ext=jpg&ga=GA1.1.588941365.1695023745&semt=sph" alt="Doctors"> -->
+          <img
+          src="https://img.freepik.com/free-photo/portrait-professional-medical-worker-posing-picture-with-arms-folded_1098-19293.jpg?size=626&ext=jpg&ga=GA1.1.588941365.1695023745&semt=sph"
+          alt="Doctors">
+           </div>
+        <div class="information">
+          <h3>Request an appointment</h3>
+          <p>Our experts will get back to you soon.</p>
+        </div>
+          </div>
+          <form class="w-1/4 pr-5">
+            <div>
+              <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Enter Your Name</label>
+              <input type="text" id="name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter Your Name" required>
             </div>
+            <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Enter Your Email</label>
+              <input type="email" id="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter Your Email" required>
+            </div>
+            <div>
+              <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Enter Your Mobile number</label>
+              <input type="tel" id="number"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter Your Mobile Number" required>
+            </div>
+            <div>
+              <label for="city" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Enter Your City</label>
+              <input type="text" id="city"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter Your City" required>
+            </div>
+            <div>
+              <label for="treatments" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select Treatments</label>
+              <select name="treatments" id="treatments" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option selected>Choose a treatments</option>
+                <option value="IVF">IVF</option>
+                <option value="IUI">IUI</option>
+              </select>
+            </div>
+          </form>
         </div>
-        <!-- Fertility Treatments section end -->
+      </div>
+      <!-- Book Appointment section end -->
 
-        <!-- Book Appointment Section start -->
-        <div id="doctor_section">
-          <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Book Appointment</h2>
-        </div>
-        <!-- Book Appointment section end -->
+      <!-- Doctor Section start -->
+      <div id="doctor_section">
+        <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Doctors</h2>
+      </div>
+      <!-- Doctor section end -->
 
-        <!-- Doctor Section start -->
-        <div id="doctor_section">
-          <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Doctors</h2>
-        </div>
-        <!-- Doctor section end -->
-
-        <!-- hospital section stat -->
-        <div id="hospital_section">
-          <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Hospitals</h2>
-        </div>
-        <!-- Hospital section end -->
+      <!-- hospital section stat -->
+      <div id="hospital_section">
+        <h2 class="text-2xl font-bold mt-5 mb-3 px-2">Hospitals</h2>
+      </div>
+      <!-- Hospital section end -->
 
     </div>
-    </div>
+  </div>
   <!-- body section end -->
 
 
-   <!-- footer section -->
-   <div class="px-5  pt-10 bg-[#f2f2f2] max-w-[1536px] mx-auto">
+  <!-- footer section -->
+  <div class="px-5  pt-10 bg-[#f2f2f2] max-w-[1536px] mx-auto">
 
 
 
