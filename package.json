@@ -1,5 +1,5 @@
 {
-  "name": "pregawish_home_page",
+  "name": "doctor-details-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1"
   }
 }
