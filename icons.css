@@ -14,21 +14,12 @@
 
     src: url(./webfonts/fa-regular-400.woff2) format("woff2");
 }
-
 @font-face {
     font-family: "solid";
+
     src: url(./webfonts/fa-solid-900.woff2) format("woff2");
 }
 
-@font-face {
-    font-family: "brands";
-    src: url(./webfonts/fa-brands-400.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "sharp";
-    src: url(./webfonts/fa-sharp-light-300.woff2) format("woff2");
-}
 
 /* rupee icons */
 .fa-rupee {
@@ -39,42 +30,6 @@
 
 .fa-rupee::before {
     content: "\e1bc";
-}
-
-/* share icon */
-.fa-share-nodes {
-    font-family: "solid";
-    font-style: normal;
-    font-size: 13px;
-}
-
-.fa-share-nodes::before {
-    content: "\f1e0";
-    color: #1e3050;
-}
-
-/* bookmark icon */
-
-.fa-bookmark {
-    font-family: "regular";
-    font-style: normal;
-    font-size: 13px;
-}
-
-.fa-bookmark::before {
-    content: "\f02e";
-}
-
-/* graduation cap */
-.fa-graduation-cap {
-    font-family: "solid";
-    font-style: normal;
-    font-size: 16px;
-    color: #1e3050;
-}
-
-.fa-graduation-cap::before {
-    content: "\f19d";
 }
 
 
@@ -343,110 +298,48 @@
     color: #fff;
 }
 
-/* facebook icon */
-.fa-facebook-f {
-    position: relative;
-    font-family: "brands";
+
+
+/* carousel left and right button icon */
+
+.fa-car-right{
+
+    font-family: "solid";
     font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 13px;
+    background-color: #999;
+    padding: 2px 8px ;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
 }
 
-.fa-facebook-f::before {
-    position: absolute;
-    top: 0;
-    content: "\f39e"
+.fa-car-right::before {
+    content: "\f0da";
+    color: #fff;
 }
 
-/* twitter icon */
-.fa-twitter {
-    position: relative;
-    font-family: "brands";
+
+.fa-car-left{
+
+    font-family: "solid";
     font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 13px;
+    background-color: #999;
+    padding: 2px 8px ;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
 }
 
-.fa-twitter::before {
-    position: absolute;
-    top: 0;
-    content: "\f099"
+.fa-car-left::before {
+    content: "\f0d9";
+    color: #fff;
+
 }
 
-/* instagram icon */
-.fa-instagram {
-    position: relative;
-    font-family: "brands";
-    font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
-}
 
-.fa-instagram::before {
-    position: absolute;
-    top: 0;
-    content: "\f16d"
-}
 
-/* globe icon */
-.fa-globe {
-    position: relative;
-    font-family: "sharp";
-    font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.fa-globe::before {
-    position: absolute;
-    top: 0;
-    content: "\f0ac"
-}
-
-/* youtube icon */
-.fa-youtube {
-    position: relative;
-    font-family: "brands";
-    font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.fa-youtube::before {
-    position: absolute;
-    top: 0;
-    content: "\f167"
-}
-
-/* whats app icon */
-.fa-whatsapp {
-    position: relative;
-    font-family: "brands";
-    font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.fa-whatsapp::before {
-    position: absolute;
-    top: 0;
-    content: "\f232"
-}
-
-/* telegram icon */
-.fa-telegram {
-    position: relative;
-    font-family: "brands";
-    font-style: normal;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.fa-telegram::before {
-    position: absolute;
-    top: 0;
-    content: "\f2c6"
-}
 
 /* footer icons */
 
@@ -467,42 +360,3 @@
   .fa-s-envelope::before{
     content: "\f0e0";
   }
-
-  /* carousel left and right button */
-  .fa-car-right {
-    font-family: "solid";
-    font-style: normal;
-    font-size: 14px;
-    background-color: #999;
-    padding: 2px 8px;
-    border-radius: 25px;
-    width: 25px;
-    height: 25px;
-  }
-
-  .fa-car-right::before {
-    content: "\f0da";
-    color: #fff;
-  }
-
-  .fa-car-left{
-
-    font-family: "solid";
-    font-style: normal;
-    font-size: 14px;
-    background-color: #999;
-    padding: 2px 8px ;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-}
-
-.fa-car-left::before {
-    content: "\f0d9";
-    color: #fff;
-
-}
-
-.iti {
-    width: 100%;
-}
