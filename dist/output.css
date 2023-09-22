@@ -2558,6 +2558,22 @@ input:checked + .toggle-bg {
     width: 66.666667%;
   }
 
+  .sm\:min-w-\[340px\] {
+    min-width: 340px;
+  }
+
+  .sm\:min-w-\[320px\] {
+    min-width: 320px;
+  }
+
+  .sm\:min-w-\[300px\] {
+    min-width: 300px;
+  }
+
+  .sm\:min-w-\[310px\] {
+    min-width: 310px;
+  }
+
   .sm\:max-w-\[320px\] {
     max-width: 320px;
   }
@@ -2773,6 +2789,10 @@ input:checked + .toggle-bg {
 
   .xl\:w-3\/5 {
     width: 60%;
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
